@@ -5,11 +5,15 @@ Contributors: craftwerk
 Requires at least: 4.5
 Tested up to: 5.5.1
 Requires PHP: 5.6
-Stable tag: 5.0.0
+Stable tag: 5.0.0.1
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Post or WooCommerce product Slider for bootScore 5 WordPress theme, made with Swiper, Copyright 2020 Bastian Kreiter.
+
+== Credits ==
+
+Swiper: https://swiperjs.com/, MIT License, http://www.idangero.us/swiper/, Copyright 2015, Vladimir Kharlampidi
 
 == Installation ==
 
@@ -48,11 +52,15 @@ Post or WooCommerce product Slider for bootScore 5 WordPress theme, made with Sw
 
 == Changelog ==
 
+    = 5.0.0.1 - February 16 2021 =
+    
+        * [NEW] Override templates in child-theme 
+        * [SEO] Merged swiper.min.css and swiper-style.css into one file to reduce HTTP requests
+        * [SEO] Merged swiper.min.js and swiper-init.js into one file to reduce HTTP requests
+        * [SEO] Load js in footer
+
     = 5.0.0 - December 12 2020 =
     
         * Initial release
         
         
-== Credits ==
-
-Swiper: https://swiperjs.com/, MIT License

@@ -1,5 +1,15 @@
 <?php
-/*Product Slider Shortcode
+/*
+
+ * Product slider template.
+ *
+ * This template can be overriden by copying this file to your-theme/bs5-post-product-slider/sc-product-slider.php
+ *
+ * @author 		Bastian Kreiter
+ * @package 	bS5 Post/Product Slider
+ * @version     1.0.0
+
+Product Slider Shortcode
 [bs-product-slider order="DESC" orderby="date" posts="12" category="theme, child-themes, free, plugins"]
 */
 

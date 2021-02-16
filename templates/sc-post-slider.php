@@ -1,5 +1,16 @@
 <?php
-/*Post Slider Shortcode 
+/*
+
+ * Post slider template.
+ *
+ * This template can be overriden by copying this file to your-theme/bs5-post-product-slider/sc-post-slider.php
+ *
+ * @author 		Bastian Kreiter
+ * @package 	bS5 Post/Product Slider
+ * @version     1.0.0
+
+
+Post Slider Shortcode 
 [bs-post-slider type="post" category="blog, equal-height" order="DESC" orderby="date" posts="12"]
 */
 
