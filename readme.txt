@@ -5,7 +5,7 @@ Contributors: craftwerk
 Requires at least: 4.5
 Tested up to: 5.5.1
 Requires PHP: 5.6
-Stable tag: 5.0.0.1
+Stable tag: 5.0.0.2
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -51,6 +51,10 @@ Swiper: https://swiperjs.com/, MIT License, http://www.idangero.us/swiper/, Copy
 
 
 == Changelog ==
+
+    = 5.0.0.2 - May 11 2021 =
+    
+        * [UPDATE] Swiper 6.5.9 security update
 
     = 5.0.0.1 - February 16 2021 =
     
