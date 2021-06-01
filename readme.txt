@@ -3,7 +3,7 @@
 Contributors: craftwerk
 
 Requires at least: 4.5
-Tested up to: 5.5.1
+Tested up to: 5.7.2
 Requires PHP: 5.6
 Stable tag: 5.0.0.2
 License: GNU General Public License v2 or later
