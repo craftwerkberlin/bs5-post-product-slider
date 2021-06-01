@@ -27,7 +27,7 @@ Swiper: https://swiperjs.com/, MIT License, http://www.idangero.us/swiper/, Copy
 
         Use shortcode to display your posts in a page:
 
-        [post-slider type="post" category="sample-category" order="ASC" orderby="title" posts="12"]
+        [bs-post-slider type="post" category="sample-category" order="ASC" orderby="title" posts="12"]
 
         Options:
 
