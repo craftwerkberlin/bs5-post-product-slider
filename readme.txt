@@ -68,7 +68,7 @@ Swiper: https://swiperjs.com/, MIT License, http://www.idangero.us/swiper/, Copy
     = 5.0.0.2 - June 13 2021 =
     
         * [IMPROVEMENT] Removed mb-4 from main-wrapper
-        * [IMPROVEMENT] Slider can now show subpages by parent page id.
+        * [NEW] Slider can now show subpages by parent page id.
 
     = 5.0.0.2 - May 11 2021 =
     
