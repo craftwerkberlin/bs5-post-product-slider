@@ -1,7 +1,7 @@
 <?php
 /*
 
- * Post slider template.
+ * Post/Page slider template.
  *
  * This template can be overriden by copying this file to your-theme/bs5-post-product-slider/sc-post-slider.php
  *
@@ -12,6 +12,10 @@
 
 Post Slider Shortcode 
 [bs-post-slider type="post" category="blog, equal-height" order="DESC" orderby="date" posts="12"]
+
+Page Slider Shortcode
+[bs-post-slider type="page" post_parent="1891" order="ASC" orderby="title" posts="6"]
+
 */
 
 
@@ -25,6 +29,8 @@ function bootscore_post_slider( $atts ) {
 		'orderby' => 'date',
 		'posts' => -1,
 		'category' => '',
+        'post_parent'    => '',
+        
 	), $atts ) );
 	$options = array(
 		'post_type' => $type,
@@ -32,6 +38,8 @@ function bootscore_post_slider( $atts ) {
 		'orderby' => $orderby,
 		'posts_per_page' => $posts,
 		'category_name' => $category,
+        'post_parent' => $post_parent,
+        
 	);
 	$query = new WP_Query( $options );
 	if ( $query->have_posts() ) { ?>
@@ -39,7 +47,7 @@ function bootscore_post_slider( $atts ) {
 
 <!-- Swiper -->
 
-<div class="px-5 position-relative mb-4 post-slider">
+<div class="px-5 position-relative post-slider">
 
     <div class="swiper-container">
 

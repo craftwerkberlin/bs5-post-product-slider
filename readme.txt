@@ -1,15 +1,15 @@
-=== bS5 Post / Product Slider ===
+=== bS5 Post / Page / Product Slider ===
 
 Contributors: craftwerk
 
 Requires at least: 4.5
 Tested up to: 5.7.2
 Requires PHP: 5.6
-Stable tag: 5.0.0.2
+Stable tag: 5.0.2.0
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Post or WooCommerce product Slider for bootScore 5 WordPress theme, made with Swiper, Copyright 2020 Bastian Kreiter.
+Posts, Pages or WooCommerce products Slider for bootScore 5 WordPress theme, made with Swiper, Copyright 2021 Bastian Kreiter.
 
 == Credits ==
 
@@ -35,6 +35,19 @@ Swiper: https://swiperjs.com/, MIT License, http://www.idangero.us/swiper/, Copy
         order: ASC or DESC
         orderby: date or title
         posts: number of posts to display
+        
+    = Pages =
+
+        Use shortcode to display child pages in a page:
+
+        [bs-post-slider type="page" post_parent="1891" order="ASC" orderby="title" posts="6"]
+
+        Options:
+
+        post_parent: ID of your parent page
+        order: ASC or DESC
+        orderby: date or title
+        posts: number of pages to display
 
     = Products =
 
@@ -51,6 +64,12 @@ Swiper: https://swiperjs.com/, MIT License, http://www.idangero.us/swiper/, Copy
 
 
 == Changelog ==
+
+    = 5.0.0.2 - June 13 2021 =
+    
+        * [IMPROVEMENT] Folder name changed from bs5-post-product-slider to bs5-post-page-product-slider. Old plugin must be removed before reinstalling. Updating through the plugin-uploader will not work. 
+        * [IMPROVEMENT] Removed mb-4 from main-wrapper
+        * [IMPROVEMENT] Slider can now show subpages by parent page id.
 
     = 5.0.0.2 - May 11 2021 =
     
