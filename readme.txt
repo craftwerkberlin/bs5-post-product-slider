@@ -67,7 +67,6 @@ Swiper: https://swiperjs.com/, MIT License, http://www.idangero.us/swiper/, Copy
 
     = 5.0.0.2 - June 13 2021 =
     
-        * [IMPROVEMENT] Folder name changed from bs5-post-product-slider to bs5-post-page-product-slider. Old plugin must be removed before reinstalling. Updating through the plugin-uploader will not work. 
         * [IMPROVEMENT] Removed mb-4 from main-wrapper
         * [IMPROVEMENT] Slider can now show subpages by parent page id.
 
