@@ -1,7 +1,7 @@
 <?php
 /*Plugin Name: bS5 Post / Product Slider
 Plugin URI: https://bootscore.me/plugins/bs-post-product-slider/
-Description: Post / Product slider for bootScore 5 theme https://bootscore.me. Use Shortcode [bs-post-slider type="post" category="sample-category" order="ASC" orderby="title" posts="12"] to display posts, [bs-post-slider type="page" post_parent="1891" order="ASC" orderby="title" posts="6"] to display child pages or [bs-product-slider order="DESC" orderby="date" posts="12" category="theme, child-themes, free, plugins"] to show WooCommerce products. Check readme.txt in PlugIn folder for options.
+Description: Post / Child Page / Product slider for bootScore 5 theme https://bootscore.me. Use Shortcode [bs-post-slider type="post" category="sample-category" order="ASC" orderby="title" posts="12"] to display posts, [bs-post-slider type="page" post_parent="1891" order="ASC" orderby="title" posts="6"] to display child pages or [bs-product-slider order="DESC" orderby="date" posts="12" category="theme, child-themes, free, plugins"] to show WooCommerce products. Check readme.txt in PlugIn folder for options.
 Version: 5.0.1.0
 Author: Bastian Kreiter
 Author URI: https://crftwrk.de
